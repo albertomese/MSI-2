@@ -1,4 +1,4 @@
-###Watermelon.py
+#Watermelon.py
 
 The aim of this project is to compute an isosurface for the water chemical potential in a set of molecular simulations. The isosurface is contained in a .cube file produced by the watermelon.py script. 
 
@@ -6,7 +6,7 @@ This project was carried by Alberto Meseguer (alberto.mese@gmail.com).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-#In this repository you will find:
+###In this repository you will find:
 
 -watermelon.py -> MAIN PROGRAM. This script will produce the .cube file.
 
@@ -14,7 +14,7 @@ This project was carried by Alberto Meseguer (alberto.mese@gmail.com).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Tutorial
+###Tutorial
 
 For running watermelon.py you must use the following command line:
 
@@ -28,3 +28,5 @@ None of the arguments of the program are mandatory. Here I explain what is each 
 
 -s(sigma): this is the value for the standard deviation that will be used in the gaussian normalization of the water distribution in space (regarding the second optional part). By default, this normalization is not carried, it is only performed when the sigma value is specified. 
 
+
+For visualizing the .cube file, open the file with VMD and then increase the isovalue untill the isosurface becomes visible.
