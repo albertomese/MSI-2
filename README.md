@@ -29,4 +29,4 @@ None of the arguments of the program are mandatory. Here I explain what is each 
 -s(sigma): this is the value for the standard deviation that will be used in the gaussian normalization of the water distribution in space (regarding the second optional part). By default, this normalization is not carried, it is only performed when the sigma value is specified. 
 
 
-For visualizing the .cube file, open the file with VMD and then increase the isovalue untill the isosurface becomes visible.
+For visualizing the .cube file, open the file with VMD and then increase the isovalue until the isosurface becomes visible.
